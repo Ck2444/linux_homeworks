@@ -1,0 +1,9 @@
+   0 nano
+   1 cd /tmp/
+   2 ls
+   3 cat /etc/group | tail -5 >> Justfile.txt
+   4 cd
+   5 vi Justfile.txt
+   6 history
+   7 history.txt
+   8 history > history.txt
